@@ -1,0 +1,103 @@
+*{box-sizing: border-box;
+margin: 0px;
+padding: 0px;}
+
+#main{
+    width: 100%;
+   
+    display: grid;
+    grid-template-rows: 10% 90% ;
+    
+}
+
+#top{ background-color: rgb(31, 37, 37);
+
+        display: grid;
+        grid-template-columns: 20% 30%;
+       
+        justify-content: space-between;}
+
+
+#top div{ color: aliceblue;
+            font-size: 20px;
+        padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;}
+            
+
+
+#down{
+
+    display: grid;
+    grid-template-columns: 75% 25% ;
+    padding: 10px;
+
+}
+
+#right{  padding: 10px;}
+
+#right{padding: 10px;
+        color: aliceblue;
+        background-color: rgb(31, 37, 37);
+        margin: 10px 10px 0px 10px ;
+        border: 2px solid black;
+        }
+
+
+
+#left{
+    height: 100%;
+    display: grid; 
+    grid-template-rows: 25% 1fr  ;
+    gap: 15px;
+
+}
+#left div{   font-size: 17px;}
+
+
+#left2{
+    width:100% ;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 10px;
+
+
+}
+
+.text{ 
+   
+    border: 1px solid black;
+}
+
+
+
+ .edit{
+
+    height: 20%;background-color: rgb(16, 16, 19); width: 100%; color: aliceblue; padding: 15px;
+ }
+
+
+@media (min-width:537px) and (max-width:800px){
+
+    #left2{
+
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(3,1fr);
+    }
+
+
+}
+@media (max-width:531px){
+
+    #left2{
+
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(5,1fr);
+    }
+
+
+}
+

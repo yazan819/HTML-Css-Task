@@ -1,0 +1,38 @@
+*{box-sizing: border-box;
+padding: 0px;
+margin: ;25px;
+}
+
+
+#main{
+    
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 100px auto 100px;
+    grid-template-areas: "nav nav nav nav nav ""cont cont cont sid sid ""fot fot fot fot fot";
+    gap: 10px;
+
+}
+
+nav{
+    grid-area:nav;
+    background-color: aqua;
+}
+section{
+    grid-area: cont;
+    background-color: blue;
+
+}
+aside{
+    grid-area: sid;
+    background-color: yellow;
+}
+footer{
+    grid-area: fot;
+    background-color: blueviolet;
+}
+
+
+
+

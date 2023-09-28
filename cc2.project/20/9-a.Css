@@ -1,0 +1,53 @@
+
+#ss{
+
+    display: flex;
+    width: 800px;
+    height: 500px;
+    background-color: rgb(21, 99, 129);
+    padding: 15px 10px;
+
+}
+#dd{
+
+display: flex;
+justify-content: center;
+color: rgb(255, 255, 255);
+font-size: 25px;
+padding-top: 10px;
+;
+
+
+}
+#ww{
+    margin: 40px;
+    align-items: center;
+
+    
+    
+}
+#mm{
+    margin: 40px;
+    align-items: center;
+
+    
+    
+}
+#vv{
+    margin: 40px;
+    align-items: center;
+
+    
+    
+}
+
+.yazan{
+
+    margin-bottom: 180px;
+    
+    align-content: center;
+
+}
+*{
+    margin: 0;
+}

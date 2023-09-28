@@ -1,0 +1,58 @@
+#main{
+    background-color: rgb(31, 31, 105);
+    margin: 50px;
+    display: flex;
+
+}
+
+#mainleft{
+
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(129, 138, 216);
+    width: 300px;
+    margin: 10px;
+   
+
+}
+
+#mainright{
+
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(31, 31, 105);
+    width: 1000px;
+    padding: 10px;
+    margin:10px ;
+
+}
+
+#right1{
+
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    background-color: rgb(31, 31, 105);
+    margin-bottom: 5px;
+
+}
+
+#mainright2{
+
+    height: 90px;
+    display: flex;
+    margin-bottom:60px;
+    width: 100%;
+    ;
+
+}
+
+#main3{
+
+    height: 300px;
+    width: 100%;
+    background-color: rgb(31, 31, 105);
+    display: flex;
+
+
+}

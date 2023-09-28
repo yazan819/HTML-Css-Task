@@ -1,0 +1,29 @@
+
+*{ box-sizing: border-box;
+    margin: 2px;
+    padding: 2px;}
+
+#main{
+
+    
+   margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,100px);
+    gap: 10px;
+    
+
+
+   
+}
+
+.a{
+
+    font-size: 20px;
+    font-weight: bold;
+    background-color: yellow;
+    text-align: center;
+    padding: 40px;
+
+
+}

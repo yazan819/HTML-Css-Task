@@ -1,0 +1,18 @@
+#main{
+
+    width: 350px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+
+#con{
+    display: flex;
+    width: 25%;
+    margin-bottom: 5px;
+
+}
