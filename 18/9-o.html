@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        *{box-sizing: border-box;
+        margin: 0px;
+    padding: 0px;}
+
+    #main{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        
+    }
+    .con{  background-color: rgb(7, 6, 65);
+        border: 2px solid rgb(255, 255, 255);
+        margin: 3px;
+        height: 50px;
+        padding: 7px;
+        color: aliceblue;
+        font-size: 20px;}
+
+        .line{
+            font-size: 40px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bold;
+            color: orangered;
+            
+            height: 50px;
+            
+        }
+        #down{
+            background-color: rgb(7, 6, 65);
+        
+        margin: 3px;
+        height: 50px;
+        gap: 10px;
+        display: grid;
+        grid-template-columns: 150px 250px 1fr;
+        margin-right: 20px;
+
+            
+        }
+        .m{
+            padding: 7px;
+            border: 2px solid rgb(255, 255, 255);
+            background-color: rgb(7, 6, 65);
+            color: aliceblue;
+            font-size: 20px;
+
+        }
+
+
+
+
+
+
+    </style>
+
+</head>
+
+
+
+<body  style="background-color: rgb(7, 6, 65);
+margin: 200px;">
+    
+            <div id="main">
+
+                <div class="line">Block-Level </div>
+                <div class="con">This is paragraph </div>
+                <div class="con"> This is another paragraph</div>
+                <div class="con">Paragraphs are block-level elements ,so they stack </div>
+                <div class="line">Inline  </div>
+
+
+                <div id="down">
+
+                    <div class="m">Link are</div>
+                    <div class="m">inline elements</div>
+                    <div class="m">so thy fit said -by-said</div>
+                    
+                </div>
+
+
+            </div>
+
+
+</body>
+</html>
